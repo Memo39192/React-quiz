@@ -1,12 +1,120 @@
-# React + Vite
+# 🧠 The React Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive quiz application built with React to test your knowledge of core React concepts.
+It features a clean UI, real-time progress tracking, scoring system, and smooth user experience.
 
-Currently, two official plugins are available:
+> Desktop version only.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://react-quiz-demo-test.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+### Start Screen
+
+![Start Screen](./screenshots/start-screen.png)
+
+### Quiz Screen
+
+![Quiz Screen](./screenshots/quiz-screen.png)
+
+### Final Score
+
+![Final Score](./screenshots/final-score.png)
+
+---
+
+## ✨ Features
+
+* Interactive quiz flow
+* Multiple-choice questions
+* Progress tracking bar
+* Countdown timer per question
+* Score calculation system
+* High score tracking
+* Restart quiz functionality
+* Clean and minimal UI
+
+---
+
+## 🛠️ Tech Stack
+
+* React 19 
+* Vite 6 
+* JavaScript (ES Modules) 
+* CSS
+
+---
+
+## ⚙️ Project Setup
+
+This project is built using **Vite + React** with fast refresh and modern tooling. 
+
+The app is mounted on a root element and bootstrapped via `main.jsx`. 
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── contexts/
+├── data/
+├── App.jsx
+├── App.css
+├── App_no_context.jsx
+└── main.jsx
+```
+
+---
+
+## 📦 Available Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
+
+Scripts are defined using Vite tooling. 
+
+---
+
+## 🧹 Code Quality
+
+* ESLint configured with React Hooks rules
+* Enforces best practices and clean code structure
+* Supports React Fast Refresh
+
+
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/react-quiz.git
+cd react-quiz
+npm install
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Salama**
